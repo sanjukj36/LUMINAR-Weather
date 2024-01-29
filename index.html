@@ -86,12 +86,12 @@
             };
             const formattedTime = localTime.toLocaleString('en-US', options);
 
-            
+
 
 
 
             result.innerHTML = ` <div class="d-flex flex-column text-center mt-5 mb-4">
-                      <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;">${temp}</h6>
+                      <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;">${temp}°C</h6>
                       <span class="small" style="color: #868B94">${place}</span>
                     </div>
         
@@ -99,9 +99,9 @@
                       <div class="flex-grow-1" style="font-size: 1rem;">
                         <div><i class="fas fa-wind fa-fw" style="color: #868B94;"></i> <span class="ms-1">country:- ${country}
                           </span></div>
-                        <div><i class="fas fa-tint fa-fw" style="color: #868B94;"></i> <span class="ms-1"> feels like:- ${feelsTemp} </span>
+                        <div><i class="fas fa-tint fa-fw" style="color: #868B94;"></i> <span class="ms-1"> feels like:- ${feelsTemp}°C</span>
                         </div>
-                        <div><i class="fas fa-sun fa-fw" style="color: #868B94;"></i> <span class="ms-1"> humidity:- ${humidity}</span>
+                        <div><i class="fas fa-sun fa-fw" style="color: #868B94;"></i> <span class="ms-1"> humidity:- ${humidity}%</span>
                         </div>
                         <div><i class="fas fa-sun fa-fw" style="color: #868B94;"></i> <span class="ms-1">wind:- ${wind}</span>
                         </div>
