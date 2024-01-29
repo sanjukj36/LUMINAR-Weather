@@ -24,11 +24,16 @@
                         <div class="d-flex">
                             <h6 class="flex-grow-1">WEATHER</h6>
                         </div>
-                        <div class="text-center mb-3">
-                            <input type="text" id="locationInput" placeholder="Enter location">
-                            <button onclick="getRandomCountry()" class="btn btn-primary">Click me</button>
-
-                        </div>
+                        
+                        <div class="input-group rounded mb-3">
+                            <input type="search" class="form-control rounded" id="locationInput" placeholder="Enter location" aria-label="Search"
+                              aria-describedby="search-addon" />
+                            <a href="#!" type="button">
+                              <span class="input-group-text border-0 fw-bold" onclick="getRandomCountry()" id="search-addon">
+                                Click me!
+                              </span>
+                            </a>
+                          </div>
 
                         <div id="result">
 
